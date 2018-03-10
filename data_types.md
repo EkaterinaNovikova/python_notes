@@ -45,9 +45,50 @@ dict.keys()
 ```
 del(dict[key])
 ```
+#### Add key-value to dict
+```dict['new_key'] = new_value```
 
-Comparing of list and dictionary
+#### Dictionary may contain dictionary
+```dict = {key1 : {key11: value11, key12 : value12}, key2: {key21 : value21, key22 : value22}}```
+take elements:
+```dict[key1][key12]```
 
-list | dictionary
------|----------
-get value, set value, remove value | same
+#### Loop for
+```
+for key.value in dict.items():
+```
+## Numpy array
+#### Create numpy array from list
+``` 
+import numpy as np
+my_nparr = np.array(my_list)
+```
+#### Element-wise calculations (element by element)
+```my_array * 3```
+
+#### Comparing of arrays
+```
+np.logical_and(array1 > 21, array1 < 22)
+array1[np.logical_and(array1>21, array1 < 22)]
+```
+
+#### Subsetting of 2d arrays
+```
+regular list of lists
+x = [["a", "b"], ["c", "d"]]
+[x[0][0], x[1][0]]
+
+import numpy as np
+np_x = np.array(x)
+np_x[:,0]
+```
+#### Print out the 50th row of np_array
+```print(np_array[49, :])```
+
+#### Loop for
+```
+for val in np.nditer(array):
+```
+#### Median and mean
+```np.mean(x)
+np.median(x)```
