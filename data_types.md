@@ -1,9 +1,16 @@
 # Data types
 ## String
-```string.upper()```
+Make all letters capitalized
+```my_str.upper()```
+
+Make first letter in a string capitalized
+```my_str.capitalize()```
+
+```my_str.replace('replaced_string', 'replacing_string')```
 
 #### Count letters in a string
 ```string.count('a')```
+
 
 ## List
 `[, , ,]` <- any data type including strings, floats, booleans, etc.
@@ -58,7 +65,7 @@ take elements:
 for key.value in dict.items():
 ```
 ## Numpy array
-#### Create numpy array from list
+#### Create numpy array from a list
 ``` 
 import numpy as np
 my_nparr = np.array(my_list)
@@ -91,4 +98,4 @@ for val in np.nditer(array):
 ```
 #### Median and mean
 ```np.mean(x)
-np.median(x)```
+np.median(x)```s
