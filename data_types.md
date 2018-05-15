@@ -71,12 +71,13 @@ import numpy as np
 my_nparr = np.array(my_list)
 ```
 #### Transpose
+```
 y = np.array([[7, 8, 9], 
               [11, 12, 13]])
 >>> array([[ 7, 11],
        [ 8, 12],
        [ 9, 13]])
-
+```
 #### Element-wise calculations (element by element)
 ```my_array * 3```
 
