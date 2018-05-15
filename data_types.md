@@ -74,6 +74,8 @@ my_nparr = np.array(my_list)
 ```
 y = np.array([[7, 8, 9], 
               [11, 12, 13]])
+np.transpose(y)
+
 >>> array([[ 7, 11],
        [ 8, 12],
        [ 9, 13]])
