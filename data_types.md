@@ -108,7 +108,8 @@ for val in np.nditer(array):
 ```
 #### Median and mean
 ```np.mean(x)
-np.median(x)```s
+np.median(x)
+```
 
 ## Pandas data type
 Parse dates:
