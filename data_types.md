@@ -109,3 +109,18 @@ for val in np.nditer(array):
 #### Median and mean
 ```np.mean(x)
 np.median(x)```s
+
+## Pandas data type
+Parse dates:
+```
+df = pd.read_csv(filename, parse_dates = ['Date']
+```
+Parse and use dates as indexes:
+```
+df = pd.read_csv(filename, index_col = 'Date', parse_dates = True)
+```
+Convert list of dates into a datetime object:
+```
+time_format = '%Y-%m-%d %H:%M'
+my_datetimes = pd.to_datetime(date_list, format=time_format)  
+```
