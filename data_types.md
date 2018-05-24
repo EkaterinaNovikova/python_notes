@@ -133,3 +133,7 @@ Create a DataFrame from a dictionary:
 
 Capitalize indexes of dataframe:
 ```df.index = df.index.str.capitalize()```
+
+Reindex with fill method, using forward fill: ts4
+```ts4 = ts2.reindex(ts1.index, method = 'ffill')```
+
