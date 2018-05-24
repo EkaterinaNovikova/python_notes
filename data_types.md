@@ -125,3 +125,5 @@ Convert list of dates into a datetime object:
 time_format = '%Y-%m-%d %H:%M'
 my_datetimes = pd.to_datetime(date_list, format=time_format)  
 ```
+To get a DataFrame as a numpy array
+```df.array()```
