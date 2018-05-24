@@ -127,3 +127,9 @@ my_datetimes = pd.to_datetime(date_list, format=time_format)
 ```
 To get a DataFrame as a numpy array
 ```df.values```
+
+Create a DataFrame from a dictionary:
+```pd.DataFrame()```
+
+Capitalize indexes of dataframe:
+df.index = df.index.str.capitalize()
