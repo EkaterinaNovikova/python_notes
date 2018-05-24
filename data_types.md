@@ -132,4 +132,4 @@ Create a DataFrame from a dictionary:
 ```pd.DataFrame()```
 
 Capitalize indexes of dataframe:
-df.index = df.index.str.capitalize()
+```df.index = df.index.str.capitalize()```
