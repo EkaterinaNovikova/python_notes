@@ -137,3 +137,5 @@ Capitalize indexes of dataframe:
 Reindex with fill method, using forward fill: ts4
 ```ts4 = ts2.reindex(ts1.index, method = 'ffill')```
 
+Take rows conforming to condition:
+```sales[np.logical_and(sales['product'] == 'B', sales['sold'] > 100)]```
