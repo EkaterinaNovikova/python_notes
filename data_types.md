@@ -139,3 +139,6 @@ Reindex with fill method, using forward fill: ts4
 
 Take rows conforming to condition:
 ```sales[np.logical_and(sales['product'] == 'B', sales['sold'] > 100)]```
+
+Extract temperature of August 2010 from df, resample to days and find max value of each day:
+```august_highs = df['Temperature']['2010-August'].resample('D').max()```
